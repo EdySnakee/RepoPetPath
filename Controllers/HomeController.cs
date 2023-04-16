@@ -13,7 +13,10 @@ namespace PetPathWepApp.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Contacto()
+        {
+            return View();
+        }  public IActionResult Index()
         {
             return View();
         }
