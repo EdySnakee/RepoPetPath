@@ -16,7 +16,18 @@ namespace PetPathWepApp.Controllers
         public IActionResult Contacto()
         {
             return View();
-        }  public IActionResult Index()
+        }
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Nosotros()
+        {
+            return View();
+        }
+
+        public IActionResult ServiV()
         {
             return View();
         }
