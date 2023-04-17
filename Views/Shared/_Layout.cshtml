@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - PetPathWepApp</title>
+    <title>@ViewData["Title"]-Caminando Juntos-</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PetPathWepApp.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="947c47c2ae" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="@Url.Content("~/images/logo-page.png")" type="image/x-icon" />
+
 
 
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
@@ -39,8 +41,6 @@
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                 </button>
-
-                <a href="index.html" class="navbar-brand">Eatery <span>.</span> Cafe</a>
             </div>
          </div>
     </section>
@@ -55,9 +55,10 @@
                         <li style="display: inline-block; margin-right: 10px;"><a class="smoothScroll" asp-controller="Home" asp-action="ServiV">SERVICIOS</a></li>
                         <li style="display: inline-block; margin-right: 10px;"><a class="smoothScroll" asp-controller="Home" asp-action="Contacto">CONTACTO</a></li>
                     </ul>
+                    <a class="navbar-brand" href="@Url.Action("Index", "Home")"><img src="@Url.Content("~/images/logo-color.png")" alt="Logo de la empresa"></a>
 
                     <ul class="nav navbar-nav navbar-right" style="display: inline-block;">
-                        <li><a href="#">Call Now! <i class="fa fa-phone"></i> 010 020 0340</a></li>
+                        @*<li><a href="#">Call Now! <i class="fa fa-phone"></i> 010 020 0340</a></li>*@
                         <a href="#footer" class="section-btn">Urgencias</a>
                     </ul>
 
@@ -76,7 +77,7 @@
     <footer id="footer" data-stellar-background-ratio="0.5">
         <div class="container-fluid">
             <div class="row">
-                <i class="fas fa-search"></i>
+                <i class="fas fa-globe"></i>
 
                 <div class="col-md-3 col-sm-8">
                     <div class="footer-info">
