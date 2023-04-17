@@ -141,16 +141,16 @@ http://www.templatemo.com/tm-515-eatery
      BUTTONS               
   -----------------------------------------*/
 
-  .section-btn {
+.section-btn {
     background: #ce3232;
-    border-radius: 0;
+    border-radius: 10px;
     border: 0;
     color: #f9f9f9;
     font-size: inherit;
-    font-weight: normal;
-    padding: 10px 25px;
-    transition: 0.5s 0.2s;
-  }
+    font-weight: 600;
+    padding: 18px 80px;
+    transition: 1.0s 0.2s;
+}
 
 
 
@@ -239,7 +239,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .navbar-nav.navbar-right .section-btn {
     display: inline-block;
-    margin: 0.2em 0 0 1em;
+    margin: 0.2em 16px 0 1em;
   }
 
   .custom-navbar .navbar-nav.navbar-right .section-btn:hover {
@@ -260,7 +260,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .custom-navbar .nav li a {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     padding-right: 22px;
